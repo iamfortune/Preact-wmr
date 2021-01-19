@@ -1,0 +1,68 @@
+.wmr_app {
+    background: white;
+    height: 100vh;
+}
+
+.svgIcon {
+    margin: 3px;
+}
+
+.unstyled_list {
+    list-style: none;
+    padding: 0;
+}
+
+.noteItem {
+    padding: 16px;
+    border-radius: 3px;
+    background-color: #f2f9fb;
+    box-shadow: 1px 1px 3px 1px #efefef;
+    font-size: 20px;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.deleteIcon {
+    padding: 14px;
+    background-color: #eee;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.notes_list_wrapper {
+    border-radius: 5px;
+    padding: 6px;
+    max-width: 400px;
+}
+
+.button {
+    font-size: 14px;
+    border: 1px solid purple;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 34px;
+    margin: 10px;
+}
+
+.button:hover {
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+@media (min-width: 768.11px) {
+    .inputArea {
+        color: black;
+    }
+    .inputField {
+        border: 1px solid blue;
+        padding: 10px;
+        font-size: 21px;
+        border-radius: 4px;
+    }
+    .inputField:hover, .inputField:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        border: 1px solid green;
+    }
+}

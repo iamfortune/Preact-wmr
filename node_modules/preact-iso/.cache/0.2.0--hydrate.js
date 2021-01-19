@@ -1,0 +1,1 @@
+import{hydrate as e,render as t}from"/@npm/preact";let o;export default function(r,d){if("undefined"==typeof window)return;let n=document.querySelector("script[type=isodata]");d=d||n&&n.parentNode||document.body,!o&&n?e(r,d):t(r,d),o=!0}
